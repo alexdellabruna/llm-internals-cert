@@ -14,7 +14,6 @@ class NNTracking:
 
     def hook_fn(self, m, i, o):
         key=str(m).split("(")[0].lower()
-        print(key)
         if key not in self.key_counter.keys():
             self.key_counter[key]=1
         else:
