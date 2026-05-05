@@ -1,5 +1,5 @@
 import json
-from common import *
+from old.common import *
 import numpy as np
 import os
 import matplotlib.pyplot as plt

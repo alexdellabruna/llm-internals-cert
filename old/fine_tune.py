@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader
 from collections import defaultdict
 import numpy as np
 import json
-from model import *
+from old.model import *
 
 model = Model()
 model.load_state_dict(torch.load("./models/model_1.pth", weights_only=True))

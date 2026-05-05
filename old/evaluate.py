@@ -3,8 +3,8 @@ import os
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
-from common import *
-from model import *
+from old.common import *
+from old.model import *
 import numpy as np
 
 def save_per_layer_predictions(v_copy_arr, plot_name):
