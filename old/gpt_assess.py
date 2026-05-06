@@ -3,7 +3,7 @@ import os
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
-from common import *
+from old.common import *
 import numpy as np
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
