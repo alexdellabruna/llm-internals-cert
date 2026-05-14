@@ -10,7 +10,7 @@ The experiments were conducted on an architecture composed of a K3S cluster with
 Evaluation steps:
 
 ```bash
-run the gpt_assess Jupyter notebook
+run the gpt_assess.ipynb notebook
 ```
 
 to fine-tune we used Unsloth Studio, the used configuration can be found in the `fine-tuning-unsloth/gpt_oss_20b_qlora.conf`
@@ -27,4 +27,4 @@ Results:
 
 Final result: integral (JS Divergence: 0.061115286381893556)
 
-<img src="analyze_out/math.png">
+<img src="analyze_out/out.png">
