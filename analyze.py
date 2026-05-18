@@ -32,6 +32,8 @@ with open(os.path.join("gpt_out", "global.json"), "r") as result_file:
         
         compare_result_arr = json.loads(compare_file_raw)
 
+        plt.xlabel("Layer")
+        plt.ylabel("Mean Activation")
         plt.plot(range(len(compare_result_arr)), compare_result_arr)
         plt.plot(range(len(result_arr)), result_arr)
         os.makedirs("./analyze_out", exist_ok=True)
